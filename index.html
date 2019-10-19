@@ -127,10 +127,9 @@ a2:hover{ color: white;
 	#poom20{bottom: 13%; font-weight: 5px; font-size: 1em;display:none; left: 23%;font-family: "DungGeunMo";}
 	#poom21{bottom: 13%; font-weight: 5px; font-size: 1em;display:none; left: 23%;font-family: "DungGeunMo";}
 	#poom22{bottom: 13%; font-weight: 5px; font-size: 1em;display:none; left: 23%;font-family: "DungGeunMo";}
-
-	#yaa2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 43%;font-family: "DungGeunMo";cursor: pointer;}
+	#yaa2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 38%;font-family: "DungGeunMo";cursor: pointer;}
 	#yaa2:hover{color: white; }
-	#noo2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 55%;font-family: "DungGeunMo";cursor: pointer;}
+	#noo2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 50%;font-family: "DungGeunMo";cursor: pointer;}
 	#noo2:hover{color: white; }
 
 	#yaa3{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 35%;font-family: "DungGeunMo";cursor: pointer;}
@@ -1035,11 +1034,15 @@ a4 { font-weight:bold;
 	 <h4 id="flashlight">딱히 손전등을 사용할 곳이 없다.</h4>
 	 <h6 id="poom">교실 전체에서 은은한 라벤더 비누향이 나는 것 같다...</h6>
 	 <h6 id="poom2">누군가의 체취일까?</h6>
-	 <h6 id="poom3">좋아...잠깐만 살펴 보는거다...!</h6>
+	 <h6 id="poom3">『황현지』의 이벤트를 확인할까요?</h6>
 	 <h6 id="poom4">...그래 4학년 교실인데 뭐가 있겠어?</h6>	 
-	 	 	<h10 id="yaa2">예</h10>
-		<h10 id="noo2">아니오</h10>
+<a href="https://seoojing.github.io/chris/">
+	 	 <h10 id="yaa2">▶ 예</h10>
+</a>
 
+<a href="https://seoojing.github.io/mas/">
+		<h10 id="noo2">▶ 아니오, 이미 했습니다.</h10>
+</a>
 <div id="musi">
    <a5>
 	<MARQUEE width="300" height="50" scrollamount="3">The Age Of Wood - Savfk</MARQUEE>
@@ -1774,7 +1777,13 @@ window.onmousemove = function(){
 			backk.style.opacity = "1";
 			}
 
-
+	fronts.onclick = function(){
+		but.play();
+			bx.style.display = "inline";
+			poom3.style.display = "inline";
+			yaa2.style.display = "inline";
+			noo2.style.display = "inline";
+			}	
 
 </script>
 </body>
