@@ -612,7 +612,7 @@ bottom:20%; left: 10%;
 position: absolute;
  width: 900px;
  height: 270px;
-  bottom:35%; left: 1%;
+  bottom:35%; left: 5%;
  
 }
 
@@ -997,6 +997,9 @@ a4 { font-weight:bold;
 </a>
 <!--설명글 -->
 
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 <!-- Image 3 -->
 <div id="content_img" style="cursor: url(eyes.png), pointer;">
@@ -1351,6 +1354,8 @@ window.onmousemove = function(){
 		on = true;}
 
 			}
+				soun11.onclick = function(){
+		beep.play();}	
 	music.onclick = function(){
 		viol.pause();
 			music2.style.display = "inline";
